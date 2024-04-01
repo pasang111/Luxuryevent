@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Event</title>
+    <link rel="stylesheet" href="../style/home.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times"></i>
+            <ul>
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="blogandnews.html"> Events </a></li>
+                <li><a href="services.html"> Services </a></li>
+                <li><a href="aboutus.html"> About Us </a></li>
+                 <li><a href="contact.html"> Contact us </a></li>
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>  
+    <h1> About Us </h1>
+</section>
+
+<!-- about us content -->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We organize one of best Event in the world</h1>
+            <p> "We organize one of the best events in the world" signifies that the organization is renowned globally for hosting exceptional events, demonstrating a commitment to excellence, innovation, and delivering unparalleled experiences to attendees.</p>
+            <a href="" class="button red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="../files/ab2.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Luxury Event, we craft timeless experiences tailored to your desires, ensuring every detail exudes elegance and sophistication,<br> making your occasions unforgettable.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+       <p>Connected with<i class="fa fa-heart-o"></i>Quick Link</p> 
+</section>
+
+
+<!--javascript for toogle menu -->
+
+<script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+</script>
+
+
+
+</body>
+</html>
